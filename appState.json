@@ -1,0 +1,92 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d2151f98-a9f3-4fbd-84a0-741edab04487": {
+        "id": "d2151f98-a9f3-4fbd-84a0-741edab04487",
+        "parent": null,
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapNortheast2seoulIduuutestinduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "d2151f98-a9f3-4fbd-84a0-741edab04487"
+    ],
+    "currentFileId": "d2151f98-a9f3-4fbd-84a0-741edab04487",
+    "resources": {
+      "apigapNortheast2seoulIduuutestinduany": {
+        "name": "apigapNortheast2seoulIduuutestinduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-northeast-2",
+          "apiMode": 0,
+          "apiName": "seoul-iduuu",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/indu",
+          "resourcePath": "/test/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test123",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "seoul-indu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-2",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582871916791
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "seoul-indu",
+      "url": "https://github.com/Indunil1992/seoul-indu"
+    }
+  }
+}
